@@ -1,11 +1,8 @@
 def mijn_functie_1(a):
-    return a ** a
+    return a ** 2
 
 def mijn_functie_2(a,b):
     return a + b, a - b, a * b, a / b
 
-teruggeefwaarde1 = mijn_functie_1(2)
-teruggeefwaarde2 = mijn_functie_2(12, 3)
-
-print(teruggeefwaarde1)
-print(teruggeefwaarde2)
+print(mijn_functie_1(3))
+print(mijn_functie_2(12, 3))
